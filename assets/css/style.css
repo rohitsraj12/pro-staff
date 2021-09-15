@@ -134,10 +134,19 @@
       height: 100vh;
   }
 
+  .banner__content article{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .banner__header-text {
     font-family: var(--font-primary);
     font-size: 3rem;
     font-weight: 900;
+    color: var(--color-white);
   }
 
   /* ==================================

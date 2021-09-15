@@ -134,6 +134,12 @@
       height: 100vh;
   }
 
+  .banner__header-text {
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
   /* ==================================
   
         #body container

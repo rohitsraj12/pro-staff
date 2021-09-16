@@ -143,8 +143,10 @@
   }
 
   .banner__header-text {
+    width: 50%;
+    margin: 0 auto;
     font-family: var(--font-primary);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     color: var(--color-white);
   }

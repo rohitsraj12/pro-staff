@@ -18,12 +18,18 @@
 }
 
 @media(min-width: 769px){
+    .banner__lg {
+        width: 100%;
+        height: 100vh;
+    }
+
     .body__header header {
         padding: 30px 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         /* border-bottom: 1px solid #3c3c3c; */
+        align-items: center;
     }
 
     .header__nav ul{
@@ -55,10 +61,31 @@
     .nav__link:hover {
         color: #aeaeae;
     }
+
+
+    /*=========================
+    
+        #banner
+    
+    ============================*/
+
+    .banner__sm {
+        display: none;
+    }
+
+  .body__banner::after {
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+  }
 }
 
 
 @media(max-width: 584px){
+    .banner__lg {
+        display: none;
+    }
     .wrap__container {
         width: 96%;
     }

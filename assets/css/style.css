@@ -199,12 +199,10 @@
   }
 
   .banner__header-text {
-    width: 50%;
     margin: 0 auto;
     font-family: var(--font-primary);
-    font-size: 4rem;
-    font-weight: 900;
     color: var(--color-white);
+    font-weight: 900;
   }
 
   /* ==================================
@@ -218,7 +216,6 @@
   ======================================== */
   .section__about{
     background: linear-gradient(130deg,  rgba(213, 213, 213, 0.8) 0%,rgba(235, 235, 235, 0.8) 50%,rgba(210, 210, 210, 0.8) 100%);
-
   }
 
   

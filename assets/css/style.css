@@ -304,6 +304,9 @@
     -moz-transform: scale(0.995);
     -ms-transform: scale(0.995);
     -o-transform: scale(0.995);
+    
+    outline-offset: 6px;
+    outline: -1px solid rgba(0, 0, 0, 0.8);
   }
 
   .service__block figure {

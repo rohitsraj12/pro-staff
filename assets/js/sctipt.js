@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    $(".header__nav").hide();
+    // $(".header__nav").hide();
     $(".hamburger").click(function(){
 
         // if(){

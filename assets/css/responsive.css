@@ -32,6 +32,10 @@
 }
 
 @media(min-width: 769px){
+    .hamburger {
+        display: none;
+    }
+
     .banner__lg {
         width: 100%;
         height: 100vh;
@@ -95,6 +99,18 @@
 
 
 @media(max-width: 768px){
+
+    .hamburger {
+        position: absolute;
+        top: 40px;
+        right: 2%;
+    }
+
+    .hamburger i {
+        color: #111;
+        font-size: 30px;
+    }
+
     .banner__lg {
         display: none;
     }
